@@ -1,0 +1,69 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.navbar-transparent {
+  background-color: transparent !important;
+}
+
+.navbar-colored {
+  background-color: black !important; /* Thay đổi màu nền của navbar khi cuộn trang xuống */
+}
+
+.nav-item.nav-link.active {
+  color: #0077ff; /* Màu chữ */
+  font-weight: bold;
+  font-size: 24px;
+}
+
+body {
+  background: linear-gradient(to right, #0febf3, #c5b9e4);
+  font-family: 'Arial', sans-serif;
+}
+.hero {
+  background-image: url(/access/Passive-Avoidance-Test.jpg);
+  background-position: center center;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero1 {
+  background-image: url(passive-avoidance-a.jpg);
+  background-position: center center;
+  height: 800px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-color: rgba(170, 156, 156, 0.5); /* Dimming effect */
+}
+hr {
+  border: 1px solid #000;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+wordart {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  display: flex; /* Added for centering */
+  justify-content: center; /* Added for centering */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+

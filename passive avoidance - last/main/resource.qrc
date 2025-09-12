@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>start.png</file>
+    <file>duoc.jpeg</file>
+    <file>tdtu.png</file>
+  </qresource>
+</RCC>
