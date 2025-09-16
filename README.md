@@ -15,8 +15,9 @@
 
 **Mô tả thí nghiệm:** Có rất nhiều đối tượng chuột cần kiểm tra. Ví dụ: chuột bình thường; chuột bị suy giảm trí nhớ; chuột được tiêm thuốc A, B hoặc C. Kỳ vọng của mô hình là xuất ra được những kết qủa trực quan, giúp các nhà nghiên cứu có thể dễ dàng so sánh thói quen, sức ghi nhớ của từng đối tượng, từ đó đưa ra kết luận về độ hiệu quả của thuốc. </br> 
 
-**Vận hành:** </br> 
-  - Bước 1: Khai báo thông tin đầu vào, bao gồm ID Mouse, Status Mouse, Drug, Run Time
+**Thiết kế mô hình:** Mô hình sử dụng Raspberry Pi 5 là CPU chính, ngoài ra còn có Arduino Uno đóng vai trò là Slave giao tiếp qua RS485.</br>
+
+
 
 <table align="center">
   <tr>
@@ -50,5 +51,6 @@
   <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/6154869952638.gif" alt="Demo GIF" style="border: 4px solid #3b82f6; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 400px; max-width: 100%;"> </br>
   <sub>Màn hình cảm ứng giúp người dùng dễ dàng thao tác</sub>
 </div>
+
 
 
