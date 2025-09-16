@@ -112,9 +112,13 @@ Kết quả heatmap từ một số thuật toán
   ------------------------------------------------------------------ </br>
   <b>Tất cả thông tin trên chỉ là tóm tắt sơ lược</b><br>
 </p>
-[Xem tài liệu mô tả chi tiết](https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/tree/main/passive%20avoidance%20-%20last/docs)
-[Xem source code Raspberry](https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/tree/main/passive%20avoidance%20-%20last/main)
-[Xem source code Arduino](https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/tree/main/passive%20avoidance%20-%20last/Slave)
+
+<p align="center">
+  <a href="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/tree/main/passive%20avoidance%20-%20last/docs">_Xem tài liệu mô tả chi tiết_</a><br>
+  <a href="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/tree/main/passive%20avoidance%20-%20last/main">_Xem source code Raspberry_</a><br>
+  <a href="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/tree/main/passive%20avoidance%20-%20last/Slave">_Xem source code Arduino_</a>
+</p>
+
 
 
 
