@@ -17,8 +17,6 @@
 
 **Thiết kế mô hình:** Mô hình sử dụng Raspberry Pi 5 là CPU chính, ngoài ra còn có Arduino Uno đóng vai trò là Slave giao tiếp qua RS485.</br>
 
-
-
 <table align="center">
   <tr>
     <td align="center">
@@ -44,13 +42,53 @@
 
 **Các chức năng của mô hình** </br>
   • Nhận diện và giám sát chuột, từ đó vẽ bảng đồ mật độ di chuyển chủa chuột theo thời gian (heatmap). </br>
+  <div align="center" style="padding: 20px;">
+  <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/IMG_0579.JPG" alt="Demo GIF" style="border: 4px solid #3b82f6; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 400px; max-width: 100%;"> </br>
+  <sub>Xử lý ảnh bằng bằng model được train bởi thuật toán Ultralytics YOLO</sub>
+</div>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/detailed_mouse_classification.png" width="300"><br>
+<!--       <sub>Label 1</sub> -->
+    </td>
+    <td align="center">
+      <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/mouse_detailed_heatmap.png" width="300"><br>
+<!--       <sub>Label 2</sub> -->
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/2.jpg" width="300"><br>
+<!--       <sub>Label 3</sub> -->
+    </td>
+    <td align="center">
+      <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/Untitled.png" width="300"><br>
+<!--       <sub>Label 4</sub> -->
+    </td>
+  </tr>
+</table>
   • Gây kích thích tiêu cực khi chuột đi vào buồng tối: giật điện với điện áp từ 12 đến 24VAC, cường độ dòng điện 0.8 đến 1.5mA mà người dùng muốn hiệu chỉnh. </br>
+  <table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/333.png" width="300"><br>
+<!--       <sub>Label 1</sub> -->
+    </td>
+    <td align="center">
+      <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/2.jpg" width="300"><br>
+<!--       <sub>Label 2</sub> -->
+    </td>
+  </tr>
+</table>
   • Có giao diện cho người dùng dễ dàng vận hành và xuất ra kết quả trực quan sau mỗi lần khởi chạy thí nghiệm. </br>
   
 <div align="center" style="padding: 20px;">
   <img src="https://github.com/DomainJin/PASSIVE-AVOIDANCE-MODEL/blob/main/passive%20avoidance%20-%20last/access/6154869952638.gif" alt="Demo GIF" style="border: 4px solid #3b82f6; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 400px; max-width: 100%;"> </br>
   <sub>Màn hình cảm ứng giúp người dùng dễ dàng thao tác</sub>
 </div>
+
 
 
 
